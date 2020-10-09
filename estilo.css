@@ -1,6 +1,6 @@
 /*0001*/
 body {
-    font: 400 25px Arial, sans-serif;
+    font: 400 30px Arial, sans-serif;
     font-stretch: semi-expanded; 
     font-style: normal;
     line-height: 1.3;
@@ -35,5 +35,5 @@ p{
 li{
     color: #080808;
     background-color:#ffffff;
-    line-height: 4ex;
+    line-height: 10ex;
 }
