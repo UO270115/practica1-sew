@@ -1,6 +1,6 @@
 /*0001*/
 div{
-    display: -webkit-box;
+    display: flex;
     margin-left: 2em;
     margin-right: 2em;
     width: 5em;
