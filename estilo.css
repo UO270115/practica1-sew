@@ -1,6 +1,6 @@
 /*0001*/
 body {
-    font: 400 15px Arial, sans-serif;
+    font: 400 20px Arial, sans-serif;
     font-stretch: semi-expanded; 
     font-style: normal;
     line-height: 1.3;
@@ -26,8 +26,13 @@ h2{
     text-shadow:  #587c92 0.1em 0.1em 0.2em;   
 }
 
+p{
+    line-height: 3ex;
+}
+
 /*0001*/
 li{
     color: #080808;
     background-color:#ffffff;
+    line-height: 3ex;
 }
