@@ -1,0 +1,9 @@
+/*0001*/
+div{
+    display: -webkit-box;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 5em;
+    columns: 5em;
+    column-gap: 5em;
+  }

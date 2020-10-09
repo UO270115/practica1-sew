@@ -1,0 +1,30 @@
+/*0001*/
+table{
+    margin-left: 250px;
+    color:#000000;
+    background-color: #587c92;
+    border-color: black;
+    border-style: hidden;
+    border-width: 0.1mm;
+}
+
+/*0001*/
+th{
+    text-transform: uppercase;
+    text-align: center;
+    border-style: hidden;
+    border-width: 0.1mm;
+    padding: 10px 10px;
+    color: #000000;
+    background-color: white;
+}
+
+/*0001*/
+td{
+    text-align: center;
+    border-style: hidden;
+    border-width: 0.1mm;
+    padding: 5px 5px;
+    color: #000000;
+    background-color: white;
+}

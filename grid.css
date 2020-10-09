@@ -1,0 +1,13 @@
+/*0001*/
+div{
+    display: grid;
+    width: 40em;
+    columns: 20em;
+    column-gap: 7em;
+  }
+  
+/*100*/ /*al haber usado el id aumenta mucho la especificidad*/
+#Párrafos { grid-column: 1; grid-row: 1; }
+
+/*100*/
+#Foto { grid-column: 2; grid-row: 1; align-self: center;}

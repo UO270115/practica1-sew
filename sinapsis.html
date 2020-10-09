@@ -13,13 +13,16 @@
     <meta name="author" content="Andrea García Cernuda, uo270115" />
     <meta name="description" content="descripción de la película, sinapsis, protagonistas, doblaje" />
 
+    <!-- hoja de estilo por defecto -->
     <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <!-- hoja de estilo adicional -->
+    <link rel="stylesheet" type="text/css" href="grid.css" title="Grid layout" />
 </head>
 
 <body>
     <!-- Datos con el contenido que aparece en el navegador -->
     <header>
-        <h1>Terminator</h1>
+        <h1>The Terminator</h1>
         <nav>
             <h2>Menú</h2>
                 <ul>
@@ -35,19 +38,25 @@
 
     <section>
         <h2>Sinapsis</h2>
-        <p>En el año 2029, después de devastar la Tierra y esclavizar a la humanidad, las máquinas, gobernadas por la inteligencia artificial 
-            conocida como Skynet, están a punto de perder la guerra contra la resistencia humana liderada por John Connor.</p>
-        <p>Frente a esa situación, las máquinas entienden que asesinar a John Connor en el presente sería irrelevante, dado que ya ha conducido 
-            a la resistencia humana a la victoria. Por lo tanto, Skynet elabora su estrategia decidiendo eliminar al líder enemigo antes que 
-            nazca.</p>
-        <p>Para ello envía al año 1984 a un Terminator T-800 modelo Cyberdyne 101, un cíborg exterminador (Arnold Schwarzenegger), a través de 
-            una máquina del tiempo, con la misión de exterminar a Sarah Connor (Linda Hamilton), madre de John, antes que sea concebido.</p>
-        <p>Enterados del plan para asesinar a la mujer que dará a luz al único hombre capaz de salvar a la humanidad, la resistencia también 
-            consigue acceder a la máquina del tiempo y logra enviar a un soldado humano, Kyle Reese (Michael Biehn), con la misión de protegerla 
-            del T-800.</p>
-        <p>Trailer en español</p> 
-        <p> <video width="560" height="315" src ="multimedia/trailer.mp4"
-                   controls preload="auto"></video></p>
+        <div>
+            <div id="Párrafos">
+                <p>En el año 2029, después de devastar la Tierra y esclavizar a la humanidad, las máquinas, gobernadas por la inteligencia artificial 
+                    conocida como Skynet, están a punto de perder la guerra contra la resistencia humana liderada por John Connor.</p>
+                <p>Frente a esa situación, las máquinas entienden que asesinar a John Connor en el presente sería irrelevante, dado que ya ha conducido 
+                    a la resistencia humana a la victoria. Por lo tanto, Skynet elabora su estrategia decidiendo eliminar al líder enemigo antes que 
+                    nazca.</p>
+                <p>Para ello envía al año 1984 a un Terminator T-800 modelo Cyberdyne 101, un cíborg exterminador (Arnold Schwarzenegger), a través de 
+                    una máquina del tiempo, con la misión de exterminar a Sarah Connor (Linda Hamilton), madre de John, antes que sea concebido.</p>
+                <p>Enterados del plan para asesinar a la mujer que dará a luz al único hombre capaz de salvar a la humanidad, la resistencia también 
+                    consigue acceder a la máquina del tiempo y logra enviar a un soldado humano, Kyle Reese (Michael Biehn), con la misión de protegerla 
+                    del T-800.</p>
+            </div>
+            <div id="Foto">
+                <p>Trailer en español</p> 
+                <video width="560" height="315" src ="multimedia/trailer.mp4"
+                    controls preload="auto"></video>
+            </div>
+        </div>
     </section>
 
     <a href="https://validator.w3.org/check?uri=referer">

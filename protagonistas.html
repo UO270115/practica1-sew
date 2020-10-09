@@ -13,13 +13,16 @@
     <meta name="author" content="Andrea García Cernuda, uo270115" />
     <meta name="description" content="descripción de la película, sinapsis, protagonistas, doblaje" />
 
+    <!-- hoja de estilo por defecto -->
     <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <!-- hoja de estilo adicional -->
+    <link rel="stylesheet" type="text/css" href="flex.css" title="Flex layout" />
 </head>
 
 <body>
     <!-- Datos con el contenido que aparece en el navegador -->
     <header>
-        <h1>Terminator</h1>
+        <h1>The Terminator</h1>
         <nav>
             <h2>Menú</h2>
                 <ul>
@@ -35,14 +38,26 @@
 
     <section>
         <h2>Protagonistas</h2>
-        <ul>
-            <li><p><a href="https://es.wikipedia.org/wiki/Arnold_Schwarzenegger">Arnold Schwarzenegger</a></p>
-                <p><img alt="Arnold Schwarzenegger" src="multimedia/arnold.png"/></p></li>
-            <li><p><a href="https://es.wikipedia.org/wiki/Linda_Hamilton">Linda Hamilton</a></p>
-                <p><img alt="Linda Hamilton" src="multimedia/linda.png"/></p></li>
-            <li><p><a href="https://es.wikipedia.org/wiki/Michael_Biehn">Michael Biehn</a></p>
-                <p><img alt="Michael Biehn" src="multimedia/michael.png"/></p></li>
-        </ul>
+        <div>
+            <div>
+                Arnold Schwarzenegger
+            </div>
+            <div>
+                <a href="https://es.wikipedia.org/wiki/Arnold_Schwarzenegger"><img alt="Arnold Schwarzenegger" src="multimedia/arnold.png"/></a>
+            </div>
+            <div>
+                Linda Hamilton
+            </div>
+            <div>
+                <a href="https://es.wikipedia.org/wiki/Linda_Hamilton"><img alt="Linda Hamilton" src="multimedia/linda.png"/></a>
+            </div>
+            <div>
+                Michael Biehn
+            </div>
+            <div>
+                <a href="https://es.wikipedia.org/wiki/Michael_Biehn"><img alt="Michael Biehn" src="multimedia/michael.png"/></a>
+            </div>
+        </div>
     </section>
 
     <a href="https://validator.w3.org/check?uri=referer">
