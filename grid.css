@@ -1,8 +1,8 @@
 /*0001*/
 div{
     display: grid;
-    width: 30em;
-    columns: 10em;
+    width: 15em;
+    columns: 7em;
     column-gap: 2em;
   }
   
