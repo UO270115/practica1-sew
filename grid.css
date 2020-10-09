@@ -1,9 +1,9 @@
 /*0001*/
 div{
     display: grid;
-    width: 40em;
-    columns: 20em;
-    column-gap: 7em;
+    width: 30em;
+    columns: 10em;
+    column-gap: 2em;
   }
   
 /*100*/ /*al haber usado el id aumenta mucho la especificidad*/
