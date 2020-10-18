@@ -4,9 +4,11 @@ div{
     display: flex;
     margin-left: 2em;
     margin-right: 2em;
-    width: 5em;
-    columns: 5em;
-    column-gap: 5em;
+    width: 2em;
+    columns: 2em;
+    column-gap: 7em;
+    text-align: center;
+    align-self: center;
   }
 
 div.fullWidth {
