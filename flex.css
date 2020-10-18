@@ -7,3 +7,7 @@ div{
     columns: 5em;
     column-gap: 5em;
   }
+
+div.fullWidth {
+    width: 100%;
+  }
